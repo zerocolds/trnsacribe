@@ -1,40 +1,40 @@
-# Dockerfile.gpu: CUDA + vLLM + Ollama + Python deps
-
 # --- Stage 1: whisper.cpp builder ---
 FROM nvidia/cuda:12.2.0-base-ubuntu22.04 AS whisper-builder
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    git build-essential make cmake ninja-build \
+    git build-essential make cmake ninja-build ca-certificates \
  && rm -rf /var/lib/apt/lists/*
 RUN git clone --depth 1 https://github.com/ggerganov/whisper.cpp.git /tmp/whisper.cpp \
  && cd /tmp/whisper.cpp \
- && make -j
+ && make -j \
+ && mkdir -p /opt/whisper \
+ && if [ -f ./main ]; then \
+        cp ./main /opt/whisper/whisper-cli; \
+    elif [ -f ./build/bin/whisper-cli ]; then \
+        cp ./build/bin/whisper-cli /opt/whisper/whisper-cli; \
+    else \
+        echo "whisper binary not found"; exit 1; \
+    fi \
+ && chmod +x /opt/whisper/whisper-cli
 
 # --- Stage 2: final image ---
 FROM nvidia/cuda:12.2.0-base-ubuntu22.04 AS runtime
 ENV DEBIAN_FRONTEND=noninteractive
-# System deps
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3 python3-pip ffmpeg curl \
+    python3 python3-pip ffmpeg curl ca-certificates \
  && rm -rf /var/lib/apt/lists/*
 
-# Python deps (минимально; пины при желании добавишь сам)
 RUN python3 -m pip install --upgrade pip \
  && pip install vllm requests srt pyannote.audio torch fastapi uvicorn
 
-# Ollama (опционально; в контейнерах может не стартовать как сервис — это норм)
+# Ollama (опционально)
 RUN curl -fsSL https://ollama.com/install.sh | sh || true
 
-# Copy only whisper-cli binary
-RUN mkdir -p /workspace/whisper.cpp/build/bin
-COPY --from=whisper-builder /tmp/whisper.cpp/main /workspace/whisper.cpp/build/bin/whisper-cli
+# Кладём бинарь в PATH
+COPY --from=whisper-builder /opt/whisper/whisper-cli /usr/local/bin/whisper-cli
 
-# Copy project
 WORKDIR /workspace
 COPY ./localtrans .
 
-# Порт: у тебя uvicorn стартует на 8080 — пробросим именно его
 EXPOSE 8080
-
-# Entrypoint: run FastAPI server by default
 CMD ["uvicorn", "localtrans.api_server:app", "--host", "0.0.0.0", "--port", "8080"]
