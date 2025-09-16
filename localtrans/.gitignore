@@ -14,3 +14,10 @@ source
 *.log
 *.csv
 .env
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+
