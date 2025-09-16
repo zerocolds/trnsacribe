@@ -28,7 +28,7 @@ RUN pip3 install --upgrade pip && pip3 install \
 RUN curl -fsSL https://ollama.com/install.sh | sh || true
 # Copy only whisper-cli binary
 RUN mkdir -p /workspace/whisper.cpp/build/bin
-COPY --from=whisper-builder /tmp/whisper.cpp/build/bin/whisper /workspace/whisper.cpp/build/bin/whisper-cli
+COPY --from=whisper-builder /tmp/whisper.cpp/build/bin/whisper-cli /workspace/whisper.cpp/build/bin/whisper-cli
 # Copy project
 WORKDIR /workspace
 COPY ./localtrans ./localtrans
