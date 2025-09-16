@@ -17,9 +17,15 @@ jobs:
           - name: gpu
             dockerfile: Dockerfile.gpu
             tag: latest
+            build-args: INSTALL_OLLAMA=0
+          - name: gpu-ollama
+            dockerfile: Dockerfile.gpu
+            tag: gpu-ollama
+            build-args: INSTALL_OLLAMA=1
           - name: cpu
             dockerfile: Dockerfile.cpu
             tag: cpu
+            build-args: ""
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -41,3 +47,4 @@ jobs:
           file: ${{ matrix.dockerfile }}
           push: true
           tags: ghcr.io/${{ github.repository }}:${{ matrix.tag }}
+          build-args: ${{ matrix.build-args }}

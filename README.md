@@ -79,6 +79,11 @@ uvicorn localtrans.api_server:app --reload --host 0.0.0.0 --port 8080
 docker build -t aggregate-intervue:gpu -f Dockerfile.gpu .
 ```
 
+В репозитории публикуются три тега в GHCR:
+- `:latest` — GPU-образ без Ollama (vLLM + pipeline);
+- `:gpu-ollama` — тот же образ, но с предустановленным Ollama (передайте `ROLES_MODE=local` для использования);
+- `:cpu` — CPU-образ.
+
 ### Запуск на RunPod (пример)
 ```bash
 docker run --gpus all \
