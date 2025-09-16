@@ -20,3 +20,6 @@ __pycache__/
 .vscode/
 .idea/
 node_modules/
+whispercpp
+whisper.cpp/
+whisper.cpp

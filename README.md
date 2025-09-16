@@ -23,6 +23,27 @@ docker compose up --build
 - vLLM будет доступен на http://localhost:8000/generate
 - Ваши скрипты будут запускаться в контейнере с GPU и видеть /mnt/models
 
+## Запуск из GitHub Container Registry (GHCR)
+
+Сборка и публикация Docker-образа происходит автоматически через GitHub Actions при push в main/master.
+
+Чтобы запустить контейнер в ЦОД или на сервере:
+
+```bash
+docker pull ghcr.io/<ВАШ_GITHUB_ЮЗЕР>/<ВАШ_РЕПОЗИТОРИЙ>:latest
+
+docker run --gpus all \
+  -e HF_TOKEN=your_hf_token \
+  -e API_TOKEN=your_api_token \
+  -v $(pwd)/models:/mnt/models \
+  -p 8080:8080 \
+  ghcr.io/<ВАШ_GITHUB_ЮЗЕР>/<ВАШ_РЕПОЗИТОРИЙ>:latest
+```
+
+- Образ всегда свежий, скачивается напрямую из GitHub Registry.
+- Все переменные окружения и volume те же, что и для локального запуска.
+- Можно использовать в автоматизации, CI/CD, n8n и т.д.
+
 ## Переменные окружения
 - `USE_GPU=1` — форсировать GPU-режим
 - `USE_VLLM=1` — использовать vLLM backend (по умолчанию на GPU)
