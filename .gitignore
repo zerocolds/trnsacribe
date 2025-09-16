@@ -13,4 +13,4 @@ source
 *.mkv
 *.log
 *.csv
-
+.env
