@@ -10,6 +10,16 @@ jobs:
     permissions:
       contents: read
       packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: gpu
+            dockerfile: Dockerfile.gpu
+            tag: latest
+          - name: cpu
+            dockerfile: Dockerfile.cpu
+            tag: cpu
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,10 +34,10 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and push Docker image
+      - name: Build and push ${{ matrix.name }} image
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: Dockerfile.gpu
+          file: ${{ matrix.dockerfile }}
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/${{ github.repository }}:${{ matrix.tag }}

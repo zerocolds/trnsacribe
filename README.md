@@ -65,6 +65,40 @@ docker compose exec app bash
 USE_GPU=1 USE_VLLM=1 python3 localtrans/assign_roles_with_ollama.py --src ./with_speakers --out ./local_roles --labels Менеджер,Клиент --mode local --model your-vllm-model --skip-exists
 ```
 
+## FastAPI pipeline server
+
+### Локальный запуск
+```bash
+export API_TOKEN=supersecret
+uvicorn localtrans.api_server:app --reload --host 0.0.0.0 --port 8080
+```
+Эндпоинты требуют Bearer-токен `API_TOKEN`. Для диаризации нужен `HF_TOKEN` (передавайте в форме или через переменные окружения).
+
+### Сборка Docker-образа (GPU)
+```bash
+docker build -t aggregate-intervue:gpu -f Dockerfile.gpu .
+```
+
+### Запуск на RunPod (пример)
+```bash
+docker run --gpus all \
+  -e API_TOKEN=supersecret \
+  -e HF_TOKEN=your_hf_token \
+  -e ROLES_MODE=openai \
+  -e ROLES_MODEL=gpt-4o-mini \
+  -e FORCE_WAV_CONVERT=1 \
+  -p 8080:8080 \
+  aggregate-intervue:gpu
+```
+
+После запуска API отвечает на `http://<host>:8080`.
+Главный эндпоинт `/pipeline` возвращает:
+
+- `segments` — список сегментов Whisper с таймкодами.
+- `rttm` — результат диаризации в формате RTTM.
+- `spk` — объединённые сегменты с назначенными спикерами.
+- `roles` — JSON с ролями, уверенностями и статистикой по спикерам.
+
 ## Как добавить свою модель
 - Для vLLM: скачайте модель в формате HuggingFace (safetensors/.bin) в ./models или укажите ссылку через MODEL_PATH
 - Для Ollama: используйте ollama pull <model>
