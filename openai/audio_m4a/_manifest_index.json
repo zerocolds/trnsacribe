@@ -1,0 +1,1716 @@
+[
+  {
+    "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/незабудка.mp4",
+    "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/file__0f22a9fa",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 7052234,
+    "duration": 778.5,
+    "parts": []
+  },
+  {
+    "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.mp4",
+    "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 118742752,
+    "duration": 13195.4,
+    "parts": [
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898.part_000.m4a",
+        "duration": 2656.0,
+        "offset": 0.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898.part_001.m4a",
+        "duration": 2656.0,
+        "offset": 2656.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898.part_002.m4a",
+        "duration": 2656.0,
+        "offset": 5312.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898.part_003.m4a",
+        "duration": 2656.0,
+        "offset": 7968.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898.part_004.m4a",
+        "duration": 2571.464,
+        "offset": 10624.0
+      }
+    ]
+  },
+  {
+    "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.mp4",
+    "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 118742752,
+    "duration": 13195.4,
+    "parts": [
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_000.m4a",
+        "duration": 2656.0,
+        "offset": 0.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_001.m4a",
+        "duration": 2656.0,
+        "offset": 2656.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_002.m4a",
+        "duration": 2656.0,
+        "offset": 5312.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_003.m4a",
+        "duration": 2656.0,
+        "offset": 7968.0
+      },
+      {
+        "path": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_004.m4a",
+        "duration": 2571.464,
+        "offset": 10624.0
+      }
+    ]
+  },
+  {
+    "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/Маркетинг статистика и анализ.mp4",
+    "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/file__64f08a38",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20625134,
+    "duration": 2222.101,
+    "parts": []
+  },
+  {
+    "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/Маркетинг статистика и анализ.mp4",
+    "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/audio",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20625134,
+    "duration": 2222.101,
+    "parts": []
+  },
+  {
+    "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/динамика продаж.mp4",
+    "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/file__97dc5d51",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20555469,
+    "duration": 2180.0,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-120207_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-120207_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20188663,
+    "duration": 2188.8,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 11411086,
+    "duration": 1243.8,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250416-120746_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250416-120746_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21761747,
+    "duration": 2397.3,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080__765c36ba",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28046785,
+    "duration": 3053.0,
+    "parts": [
+      {
+        "path": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080__765c36ba.part_000.m4a",
+        "duration": 2602.048,
+        "offset": 0.0
+      },
+      {
+        "path": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080__765c36ba.part_001.m4a",
+        "duration": 451.016,
+        "offset": 2602.048
+      }
+    ]
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080__1cfae934",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 11411086,
+    "duration": 1243.8,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250416-120746_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250416-120746_Recording_1920x1080__19a7f0f8",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21761747,
+    "duration": 2397.3,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28046785,
+    "duration": 3053.0,
+    "parts": [
+      {
+        "path": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.part_000.m4a",
+        "duration": 2602.048,
+        "offset": 0.0
+      },
+      {
+        "path": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.part_001.m4a",
+        "duration": 451.016,
+        "offset": 2602.048
+      }
+    ]
+  },
+  {
+    "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-120207_Recording_1920x1080.mp4",
+    "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-120207_Recording_1920x1080__3ff0c9bf",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20188663,
+    "duration": 2188.8,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/gubarev.bitrix24.ru/GMT20250305-085011_Recording_1920x1200.mp4",
+    "base_out_rel": "Сопровождение/gubarev.bitrix24.ru/GMT20250305-085011_Recording_1920x1200__efce51eb",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21294739,
+    "duration": 2350.8,
+    "parts": []
+  },
+  {
+    "src_rel": "Сопровождение/gubarev.bitrix24.ru/GMT20250305-085011_Recording_1920x1200.mp4",
+    "base_out_rel": "Сопровождение/gubarev.bitrix24.ru/GMT20250305-085011_Recording_1920x1200",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21294739,
+    "duration": 2350.8,
+    "parts": []
+  },
+  {
+    "src_rel": " formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080.mp4",
+    "base_out_rel": " formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21988713,
+    "duration": 2324.8,
+    "parts": []
+  },
+  {
+    "src_rel": " formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080.mp4",
+    "base_out_rel": " formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080__47966c5d",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21988713,
+    "duration": 2324.8,
+    "parts": []
+  },
+  {
+    "src_rel": "greenfeel-invest.bitrix24.ru 19.03.2025/GMT20250319-123027_Recording_1440x900.mp4",
+    "base_out_rel": "greenfeel-invest.bitrix24.ru 19.03.2025/GMT20250319-123027_Recording_1440x900__bbdbccd2",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 6266693,
+    "duration": 710.24,
+    "parts": []
+  },
+  {
+    "src_rel": "greenfeel-invest.bitrix24.ru 19.03.2025/GMT20250319-123027_Recording_1440x900.mp4",
+    "base_out_rel": "greenfeel-invest.bitrix24.ru 19.03.2025/GMT20250319-123027_Recording_1440x900",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 6266693,
+    "duration": 710.24,
+    "parts": []
+  },
+  {
+    "src_rel": "Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050.mp4",
+    "base_out_rel": "Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21786020,
+    "duration": 2302.12,
+    "parts": []
+  },
+  {
+    "src_rel": "Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050.mp4",
+    "base_out_rel": "Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050__4626d8e4",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21786020,
+    "duration": 2302.12,
+    "parts": []
+  },
+  {
+    "src_rel": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.mp4",
+    "base_out_rel": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 35856433,
+    "duration": 3850.0,
+    "parts": [
+      {
+        "path": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.part_000.m4a",
+        "duration": 2567.04,
+        "offset": 0.0
+      },
+      {
+        "path": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.part_001.m4a",
+        "duration": 1283.024,
+        "offset": 2567.04
+      }
+    ]
+  },
+  {
+    "src_rel": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.mp4",
+    "base_out_rel": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140__8b25546e",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 35856433,
+    "duration": 3850.0,
+    "parts": [
+      {
+        "path": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140__8b25546e.part_000.m4a",
+        "duration": 2567.04,
+        "offset": 0.0
+      },
+      {
+        "path": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140__8b25546e.part_001.m4a",
+        "duration": 1283.024,
+        "offset": 2567.04
+      }
+    ]
+  },
+  {
+    "src_rel": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.mp4",
+    "base_out_rel": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020__9ac7ed52",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 46950346,
+    "duration": 5052.5,
+    "parts": [
+      {
+        "path": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020__9ac7ed52.part_000.m4a",
+        "duration": 2572.032,
+        "offset": 0.0
+      },
+      {
+        "path": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020__9ac7ed52.part_001.m4a",
+        "duration": 2480.532,
+        "offset": 2572.032
+      }
+    ]
+  },
+  {
+    "src_rel": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.mp4",
+    "base_out_rel": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 46950346,
+    "duration": 5052.5,
+    "parts": [
+      {
+        "path": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.part_000.m4a",
+        "duration": 2572.032,
+        "offset": 0.0
+      },
+      {
+        "path": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.part_001.m4a",
+        "duration": 2480.532,
+        "offset": 2572.032
+      }
+    ]
+  },
+  {
+    "src_rel": " crm.alea.company/GMT20250414-080555_Recording_1600x720.mp4",
+    "base_out_rel": " crm.alea.company/GMT20250414-080555_Recording_1600x720__70fdca22",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 26042999,
+    "duration": 2770.44,
+    "parts": [
+      {
+        "path": " crm.alea.company/GMT20250414-080555_Recording_1600x720__70fdca22.part_000.m4a",
+        "duration": 2543.04,
+        "offset": 0.0
+      },
+      {
+        "path": " crm.alea.company/GMT20250414-080555_Recording_1600x720__70fdca22.part_001.m4a",
+        "duration": 227.424,
+        "offset": 2543.04
+      }
+    ]
+  },
+  {
+    "src_rel": " crm.alea.company/GMT20250414-080555_Recording_1600x720.mp4",
+    "base_out_rel": " crm.alea.company/GMT20250414-080555_Recording_1600x720",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 26042999,
+    "duration": 2770.44,
+    "parts": [
+      {
+        "path": " crm.alea.company/GMT20250414-080555_Recording_1600x720.part_000.m4a",
+        "duration": 2543.04,
+        "offset": 0.0
+      },
+      {
+        "path": " crm.alea.company/GMT20250414-080555_Recording_1600x720.part_001.m4a",
+        "duration": 227.424,
+        "offset": 2543.04
+      }
+    ]
+  },
+  {
+    "src_rel": "fachmann.bitrix24.ru/GMT20250417-080345_Recording_1920x1080.mp4",
+    "base_out_rel": "fachmann.bitrix24.ru/GMT20250417-080345_Recording_1920x1080__e738a912",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 24551828,
+    "duration": 2629.04,
+    "parts": []
+  },
+  {
+    "src_rel": "fachmann.bitrix24.ru/GMT20250417-080345_Recording_1920x1080.mp4",
+    "base_out_rel": "fachmann.bitrix24.ru/GMT20250417-080345_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 24551828,
+    "duration": 2629.04,
+    "parts": []
+  },
+  {
+    "src_rel": "gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360 (1).mp4",
+    "base_out_rel": "gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360_1",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 17503775,
+    "duration": 1897.92,
+    "parts": []
+  },
+  {
+    "src_rel": "gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360 (1).mp4",
+    "base_out_rel": "gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360_1__70b67dc4",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 17503775,
+    "duration": 1897.92,
+    "parts": []
+  },
+  {
+    "src_rel": "rodasoleil.bitrix24.ru/0226.mp4",
+    "base_out_rel": "rodasoleil.bitrix24.ru/0226__39e1ef94",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 33866359,
+    "duration": 4290.209,
+    "parts": [
+      {
+        "path": "rodasoleil.bitrix24.ru/0226__39e1ef94.part_000.m4a",
+        "duration": 3028.037938,
+        "offset": 0.0
+      },
+      {
+        "path": "rodasoleil.bitrix24.ru/0226__39e1ef94.part_001.m4a",
+        "duration": 1262.2345,
+        "offset": 3028.037938
+      }
+    ]
+  },
+  {
+    "src_rel": "rodasoleil.bitrix24.ru/0226.mp4",
+    "base_out_rel": "rodasoleil.bitrix24.ru/0226",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 33866359,
+    "duration": 4290.209,
+    "parts": [
+      {
+        "path": "rodasoleil.bitrix24.ru/0226.part_000.m4a",
+        "duration": 3028.037938,
+        "offset": 0.0
+      },
+      {
+        "path": "rodasoleil.bitrix24.ru/0226.part_001.m4a",
+        "duration": 1262.2345,
+        "offset": 3028.037938
+      }
+    ]
+  },
+  {
+    "src_rel": "malahit-obr.bitrix24.ru 27.02.2025/2025-02-27 14-04-53.mkv",
+    "base_out_rel": "malahit-obr.bitrix24.ru 27.02.2025/2025-02-27_14-04-53__6b7b2ef2",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 16432655,
+    "duration": 1735.9,
+    "parts": []
+  },
+  {
+    "src_rel": "malahit-obr.bitrix24.ru 27.02.2025/2025-02-27 14-04-53.mkv",
+    "base_out_rel": "malahit-obr.bitrix24.ru 27.02.2025/2025-02-27_14-04-53",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 16432655,
+    "duration": 1735.9,
+    "parts": []
+  },
+  {
+    "src_rel": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.mp4",
+    "base_out_rel": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080__da24bb4f",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 38385443,
+    "duration": 4038.9,
+    "parts": [
+      {
+        "path": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080__da24bb4f.part_000.m4a",
+        "duration": 2515.008,
+        "offset": 0.0
+      },
+      {
+        "path": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080__da24bb4f.part_001.m4a",
+        "duration": 1523.956,
+        "offset": 2515.008
+      }
+    ]
+  },
+  {
+    "src_rel": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.mp4",
+    "base_out_rel": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 38385443,
+    "duration": 4038.9,
+    "parts": [
+      {
+        "path": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.part_000.m4a",
+        "duration": 2515.008,
+        "offset": 0.0
+      },
+      {
+        "path": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.part_001.m4a",
+        "duration": 1523.956,
+        "offset": 2515.008
+      }
+    ]
+  },
+  {
+    "src_rel": "hzm.bitrix24.ru/2025-02-25 11-59-35.mkv",
+    "base_out_rel": "hzm.bitrix24.ru/2025-02-25_11-59-35__64d1ee26",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 29090193,
+    "duration": 3236.6,
+    "parts": [
+      {
+        "path": "hzm.bitrix24.ru/2025-02-25_11-59-35__64d1ee26.part_000.m4a",
+        "duration": 2660.032,
+        "offset": 0.0
+      },
+      {
+        "path": "hzm.bitrix24.ru/2025-02-25_11-59-35__64d1ee26.part_001.m4a",
+        "duration": 576.632,
+        "offset": 2660.032
+      }
+    ]
+  },
+  {
+    "src_rel": "hzm.bitrix24.ru/2025-02-25 11-59-35.mkv",
+    "base_out_rel": "hzm.bitrix24.ru/2025-02-25_11-59-35",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 29090193,
+    "duration": 3236.6,
+    "parts": [
+      {
+        "path": "hzm.bitrix24.ru/2025-02-25_11-59-35.part_000.m4a",
+        "duration": 2660.032,
+        "offset": 0.0
+      },
+      {
+        "path": "hzm.bitrix24.ru/2025-02-25_11-59-35.part_001.m4a",
+        "duration": 576.632,
+        "offset": 2660.032
+      }
+    ]
+  },
+  {
+    "src_rel": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.mp4",
+    "base_out_rel": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080__c57d0039",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 33709893,
+    "duration": 3681.84,
+    "parts": [
+      {
+        "path": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080__c57d0039.part_000.m4a",
+        "duration": 2611.008,
+        "offset": 0.0
+      },
+      {
+        "path": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080__c57d0039.part_001.m4a",
+        "duration": 1070.856,
+        "offset": 2611.008
+      }
+    ]
+  },
+  {
+    "src_rel": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.mp4",
+    "base_out_rel": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 33709893,
+    "duration": 3681.84,
+    "parts": [
+      {
+        "path": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.part_000.m4a",
+        "duration": 2611.008,
+        "offset": 0.0
+      },
+      {
+        "path": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.part_001.m4a",
+        "duration": 1070.856,
+        "offset": 2611.008
+      }
+    ]
+  },
+  {
+    "src_rel": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.mp4",
+    "base_out_rel": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080__3336093c",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 26328423,
+    "duration": 2850.1,
+    "parts": [
+      {
+        "path": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080__3336093c.part_000.m4a",
+        "duration": 2588.032,
+        "offset": 0.0
+      },
+      {
+        "path": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080__3336093c.part_001.m4a",
+        "duration": 262.132,
+        "offset": 2588.032
+      }
+    ]
+  },
+  {
+    "src_rel": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.mp4",
+    "base_out_rel": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 26328423,
+    "duration": 2850.1,
+    "parts": [
+      {
+        "path": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.part_000.m4a",
+        "duration": 2588.032,
+        "offset": 0.0
+      },
+      {
+        "path": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.part_001.m4a",
+        "duration": 262.132,
+        "offset": 2588.032
+      }
+    ]
+  },
+  {
+    "src_rel": "aydiss.bitrix24.ru 06.03.2025/2025-03-06 16-00-44.mkv",
+    "base_out_rel": "aydiss.bitrix24.ru 06.03.2025/2025-03-06_16-00-44__13aa4547",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21526467,
+    "duration": 2420.8,
+    "parts": []
+  },
+  {
+    "src_rel": "aydiss.bitrix24.ru 06.03.2025/2025-03-06 16-00-44.mkv",
+    "base_out_rel": "aydiss.bitrix24.ru 06.03.2025/2025-03-06_16-00-44",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 21526467,
+    "duration": 2420.8,
+    "parts": []
+  },
+  {
+    "src_rel": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.mp4",
+    "base_out_rel": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 33105780,
+    "duration": 3655.92,
+    "parts": [
+      {
+        "path": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.part_000.m4a",
+        "duration": 2640.0,
+        "offset": 0.0
+      },
+      {
+        "path": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.part_001.m4a",
+        "duration": 1015.964,
+        "offset": 2640.0
+      }
+    ]
+  },
+  {
+    "src_rel": "b24-27gx74.bitrix24.ru/GMT20250408-080634_Recording_1920x1040.mp4",
+    "base_out_rel": "b24-27gx74.bitrix24.ru/GMT20250408-080634_Recording_1920x1040__246e6cb0",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 24608296,
+    "duration": 2592.9,
+    "parts": []
+  },
+  {
+    "src_rel": "b24-27gx74.bitrix24.ru/GMT20250408-080634_Recording_1920x1040.mp4",
+    "base_out_rel": "b24-27gx74.bitrix24.ru/GMT20250408-080634_Recording_1920x1040",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 24608296,
+    "duration": 2592.9,
+    "parts": []
+  },
+  {
+    "src_rel": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.mp4",
+    "base_out_rel": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900__b19af88b",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 33105780,
+    "duration": 3655.92,
+    "parts": [
+      {
+        "path": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900__b19af88b.part_000.m4a",
+        "duration": 2640.0,
+        "offset": 0.0
+      },
+      {
+        "path": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900__b19af88b.part_001.m4a",
+        "duration": 1015.964,
+        "offset": 2640.0
+      }
+    ]
+  },
+  {
+    "src_rel": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720.mp4",
+    "base_out_rel": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720__fee0a6b4",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28076481,
+    "duration": 2870.3,
+    "parts": [
+      {
+        "path": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720__fee0a6b4.part_000.m4a",
+        "duration": 2444.032,
+        "offset": 0.0
+      },
+      {
+        "path": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720__fee0a6b4.part_001.m4a",
+        "duration": 426.332,
+        "offset": 2444.032
+      }
+    ]
+  },
+  {
+    "src_rel": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720.mp4",
+    "base_out_rel": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28076481,
+    "duration": 2870.3,
+    "parts": [
+      {
+        "path": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720.part_000.m4a",
+        "duration": 2444.032,
+        "offset": 0.0
+      },
+      {
+        "path": "crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720.part_001.m4a",
+        "duration": 426.332,
+        "offset": 2444.032
+      }
+    ]
+  },
+  {
+    "src_rel": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080.mp4",
+    "base_out_rel": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080__b54ae94c",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 26057739,
+    "duration": 2803.52,
+    "parts": [
+      {
+        "path": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080__b54ae94c.part_000.m4a",
+        "duration": 2572.032,
+        "offset": 0.0
+      },
+      {
+        "path": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080__b54ae94c.part_001.m4a",
+        "duration": 231.532,
+        "offset": 2572.032
+      }
+    ]
+  },
+  {
+    "src_rel": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080.mp4",
+    "base_out_rel": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 26057739,
+    "duration": 2803.52,
+    "parts": [
+      {
+        "path": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080.part_000.m4a",
+        "duration": 2572.032,
+        "offset": 0.0
+      },
+      {
+        "path": "delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080.part_001.m4a",
+        "duration": 231.532,
+        "offset": 2572.032
+      }
+    ]
+  },
+  {
+    "src_rel": "Интервью Дмитрий/GMT20250218-124104_Recording_1920x1080.mp4",
+    "base_out_rel": "Интервью Дмитрий/GMT20250218-124104_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 18350208,
+    "duration": 2200.2,
+    "parts": []
+  },
+  {
+    "src_rel": "Интервью Дмитрий/GMT20250218-124104_Recording_1920x1080.mp4",
+    "base_out_rel": "Интервью Дмитрий/GMT20250218-124104_Recording_1920x1080__b038e79d",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 18350208,
+    "duration": 2200.2,
+    "parts": []
+  },
+  {
+    "src_rel": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140.mp4",
+    "base_out_rel": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 34603546,
+    "duration": 3818.2,
+    "parts": [
+      {
+        "path": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140.part_000.m4a",
+        "duration": 2637.056,
+        "offset": 0.0
+      },
+      {
+        "path": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140.part_001.m4a",
+        "duration": 1181.208,
+        "offset": 2637.056
+      }
+    ]
+  },
+  {
+    "src_rel": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140.mp4",
+    "base_out_rel": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140__0d24a903",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 34603546,
+    "duration": 3818.2,
+    "parts": [
+      {
+        "path": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140__0d24a903.part_000.m4a",
+        "duration": 2637.056,
+        "offset": 0.0
+      },
+      {
+        "path": "a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140__0d24a903.part_001.m4a",
+        "duration": 1181.208,
+        "offset": 2637.056
+      }
+    ]
+  },
+  {
+    "src_rel": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.mp4",
+    "base_out_rel": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314__0c63975b",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28491654,
+    "duration": 3082.406,
+    "parts": [
+      {
+        "path": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314__0c63975b.part_000.m4a",
+        "duration": 2586.053063,
+        "offset": 0.0
+      },
+      {
+        "path": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314__0c63975b.part_001.m4a",
+        "duration": 496.416938,
+        "offset": 2586.053063
+      }
+    ]
+  },
+  {
+    "src_rel": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.mp4",
+    "base_out_rel": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28491654,
+    "duration": 3082.406,
+    "parts": [
+      {
+        "path": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.part_000.m4a",
+        "duration": 2586.053063,
+        "offset": 0.0
+      },
+      {
+        "path": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.part_001.m4a",
+        "duration": 496.416938,
+        "offset": 2586.053063
+      }
+    ]
+  },
+  {
+    "src_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.mp4",
+    "base_out_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28229725,
+    "duration": 3061.84,
+    "parts": [
+      {
+        "path": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133.part_000.m4a",
+        "duration": 2593.024,
+        "offset": 0.0
+      },
+      {
+        "path": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133.part_001.m4a",
+        "duration": 468.84,
+        "offset": 2593.024
+      }
+    ]
+  },
+  {
+    "src_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.mp4",
+    "base_out_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28229725,
+    "duration": 3061.84,
+    "parts": [
+      {
+        "path": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.part_000.m4a",
+        "duration": 2593.024,
+        "offset": 0.0
+      },
+      {
+        "path": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.part_001.m4a",
+        "duration": 468.84,
+        "offset": 2593.024
+      }
+    ]
+  },
+  {
+    "src_rel": "Обращения в ТП/0228.mp4",
+    "base_out_rel": "Обращения в ТП/0228",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 3820539,
+    "duration": 436.401,
+    "parts": []
+  },
+  {
+    "src_rel": "Обращения в ТП/0228.mp4",
+    "base_out_rel": "Обращения в ТП/0228__32780443",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 3820539,
+    "duration": 436.401,
+    "parts": []
+  },
+  {
+    "src_rel": "Обращения в ТП/звонки в Эффективности менеджеров.mkv",
+    "base_out_rel": "Обращения в ТП/file__079d46fe",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 2683805,
+    "duration": 338.5,
+    "parts": []
+  },
+  {
+    "src_rel": "Обращения в ТП/звонки в Эффективности менеджеров.mkv",
+    "base_out_rel": "Обращения в ТП/audio",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 2683805,
+    "duration": 338.5,
+    "parts": []
+  },
+  {
+    "src_rel": "Обращения в ТП/2025-03-03 09-11-49.mkv",
+    "base_out_rel": "Обращения в ТП/2025-03-03_09-11-49__bdcaa070",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 14221,
+    "duration": 106.201,
+    "parts": []
+  },
+  {
+    "src_rel": "Обращения в ТП/2025-03-03 09-11-49.mkv",
+    "base_out_rel": "Обращения в ТП/2025-03-03_09-11-49",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 14221,
+    "duration": 106.201,
+    "parts": []
+  },
+  {
+    "src_rel": "promtreid/0218.mp4",
+    "base_out_rel": "promtreid/0218",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 18030176,
+    "duration": 1910.704,
+    "parts": []
+  },
+  {
+    "src_rel": "promtreid/0218.mp4",
+    "base_out_rel": "promtreid/0218__d545a454",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 18030176,
+    "duration": 1910.704,
+    "parts": []
+  },
+  {
+    "src_rel": "mc-etalon.bitrix24.ru/GMT20250417-090536_Recording_1920x1080.mp4",
+    "base_out_rel": "mc-etalon.bitrix24.ru/GMT20250417-090536_Recording_1920x1080__04e4cdc0",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 24316854,
+    "duration": 2684.4,
+    "parts": []
+  },
+  {
+    "src_rel": "mc-etalon.bitrix24.ru/GMT20250417-090536_Recording_1920x1080.mp4",
+    "base_out_rel": "mc-etalon.bitrix24.ru/GMT20250417-090536_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 24316854,
+    "duration": 2684.4,
+    "parts": []
+  },
+  {
+    "src_rel": "dinoimport.bitrix24.ru/GMT20250411-080027_Recording_1920x1030 (1).mp4",
+    "base_out_rel": "dinoimport.bitrix24.ru/GMT20250411-080027_Recording_1920x1030_1",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 19569882,
+    "duration": 2110.04,
+    "parts": []
+  },
+  {
+    "src_rel": "dinoimport.bitrix24.ru/GMT20250411-080027_Recording_1920x1030 (1).mp4",
+    "base_out_rel": "dinoimport.bitrix24.ru/GMT20250411-080027_Recording_1920x1030_1__1abdc89c",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 19569882,
+    "duration": 2110.04,
+    "parts": []
+  },
+  {
+    "src_rel": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.mp4",
+    "base_out_rel": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 29411276,
+    "duration": 3154.2,
+    "parts": [
+      {
+        "path": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.part_000.m4a",
+        "duration": 2563.008,
+        "offset": 0.0
+      },
+      {
+        "path": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.part_001.m4a",
+        "duration": 591.256,
+        "offset": 2563.008
+      }
+    ]
+  },
+  {
+    "src_rel": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.mp4",
+    "base_out_rel": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080__283403f6",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 29411276,
+    "duration": 3154.2,
+    "parts": [
+      {
+        "path": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080__283403f6.part_000.m4a",
+        "duration": 2563.008,
+        "offset": 0.0
+      },
+      {
+        "path": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080__283403f6.part_001.m4a",
+        "duration": 591.256,
+        "offset": 2563.008
+      }
+    ]
+  },
+  {
+    "src_rel": " its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080.mp4",
+    "base_out_rel": " its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 17012088,
+    "duration": 1820.92,
+    "parts": []
+  },
+  {
+    "src_rel": " its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080.mp4",
+    "base_out_rel": " its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080__98299106",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 17012088,
+    "duration": 1820.92,
+    "parts": []
+  },
+  {
+    "src_rel": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080.mp4",
+    "base_out_rel": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080__6ab775fa",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 31671797,
+    "duration": 3505.5,
+    "parts": [
+      {
+        "path": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080__6ab775fa.part_000.m4a",
+        "duration": 2646.016,
+        "offset": 0.0
+      },
+      {
+        "path": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080__6ab775fa.part_001.m4a",
+        "duration": 859.548,
+        "offset": 2646.016
+      }
+    ]
+  },
+  {
+    "src_rel": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080.mp4",
+    "base_out_rel": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 31671797,
+    "duration": 3505.5,
+    "parts": [
+      {
+        "path": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080.part_000.m4a",
+        "duration": 2646.016,
+        "offset": 0.0
+      },
+      {
+        "path": "lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080.part_001.m4a",
+        "duration": 859.548,
+        "offset": 2646.016
+      }
+    ]
+  },
+  {
+    "src_rel": "smart-marking.bitrix24.ru/GMT20250306-080326_Recording_1920x1080.mp4",
+    "base_out_rel": "smart-marking.bitrix24.ru/GMT20250306-080326_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 11001971,
+    "duration": 1200.6,
+    "parts": []
+  },
+  {
+    "src_rel": "smart-marking.bitrix24.ru/GMT20250306-080326_Recording_1920x1080.mp4",
+    "base_out_rel": "smart-marking.bitrix24.ru/GMT20250306-080326_Recording_1920x1080__ba846532",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 11001971,
+    "duration": 1200.6,
+    "parts": []
+  },
+  {
+    "src_rel": "smi-kazan.bitrix24.ru/GMT20250404-102843_Recording_1920x1040.mp4",
+    "base_out_rel": "smi-kazan.bitrix24.ru/GMT20250404-102843_Recording_1920x1040",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 16266967,
+    "duration": 1777.84,
+    "parts": []
+  },
+  {
+    "src_rel": "smi-kazan.bitrix24.ru/GMT20250404-102843_Recording_1920x1040.mp4",
+    "base_out_rel": "smi-kazan.bitrix24.ru/GMT20250404-102843_Recording_1920x1040__f00b7a72",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 16266967,
+    "duration": 1777.84,
+    "parts": []
+  },
+  {
+    "src_rel": "apcpixel.bitrix24.ru/2025-02-21 12-40-38.mkv",
+    "base_out_rel": "apcpixel.bitrix24.ru/2025-02-21_12-40-38",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 2327847,
+    "duration": 259.8,
+    "parts": []
+  },
+  {
+    "src_rel": "apcpixel.bitrix24.ru/2025-02-21 12-40-38.mkv",
+    "base_out_rel": "apcpixel.bitrix24.ru/2025-02-21_12-40-38__814cc02a",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 2327847,
+    "duration": 259.8,
+    "parts": []
+  },
+  {
+    "src_rel": "apcpixel.bitrix24.ru/2025-02-21 11-14-40.mkv",
+    "base_out_rel": "apcpixel.bitrix24.ru/2025-02-21_11-14-40__27f95da8",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28124720,
+    "duration": 3244.401,
+    "parts": [
+      {
+        "path": "apcpixel.bitrix24.ru/2025-02-21_11-14-40__27f95da8.part_000.m4a",
+        "duration": 2757.056,
+        "offset": 0.0
+      },
+      {
+        "path": "apcpixel.bitrix24.ru/2025-02-21_11-14-40__27f95da8.part_001.m4a",
+        "duration": 487.408063,
+        "offset": 2757.056
+      }
+    ]
+  },
+  {
+    "src_rel": "apcpixel.bitrix24.ru/2025-02-21 11-14-40.mkv",
+    "base_out_rel": "apcpixel.bitrix24.ru/2025-02-21_11-14-40",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 28124720,
+    "duration": 3244.401,
+    "parts": [
+      {
+        "path": "apcpixel.bitrix24.ru/2025-02-21_11-14-40.part_000.m4a",
+        "duration": 2757.056,
+        "offset": 0.0
+      },
+      {
+        "path": "apcpixel.bitrix24.ru/2025-02-21_11-14-40.part_001.m4a",
+        "duration": 487.408063,
+        "offset": 2757.056
+      }
+    ]
+  },
+  {
+    "src_rel": "openline.zettains.ru/GMT20250409-080640_Recording_1920x1080 (1).mp4",
+    "base_out_rel": "openline.zettains.ru/GMT20250409-080640_Recording_1920x1080_1__5bd67f4c",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20146130,
+    "duration": 2064.24,
+    "parts": []
+  },
+  {
+    "src_rel": "openline.zettains.ru/GMT20250409-080640_Recording_1920x1080 (1).mp4",
+    "base_out_rel": "openline.zettains.ru/GMT20250409-080640_Recording_1920x1080_1",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": false,
+    "size_bytes": 20146130,
+    "duration": 2064.24,
+    "parts": []
+  },
+  {
+    "src_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.mp4",
+    "base_out_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 31104737,
+    "duration": 3358.92,
+    "parts": [
+      {
+        "path": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.part_000.m4a",
+        "duration": 2581.056,
+        "offset": 0.0
+      },
+      {
+        "path": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.part_001.m4a",
+        "duration": 777.908,
+        "offset": 2581.056
+      }
+    ]
+  },
+  {
+    "src_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.mp4",
+    "base_out_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440__82f529b8",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 31104737,
+    "duration": 3358.92,
+    "parts": [
+      {
+        "path": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440__82f529b8.part_000.m4a",
+        "duration": 2581.056,
+        "offset": 0.0
+      },
+      {
+        "path": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440__82f529b8.part_001.m4a",
+        "duration": 777.908,
+        "offset": 2581.056
+      }
+    ]
+  },
+  {
+    "src_rel": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080.mp4",
+    "base_out_rel": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080__abeba399",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 37843879,
+    "duration": 4060.6,
+    "parts": [
+      {
+        "path": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080__abeba399.part_000.m4a",
+        "duration": 2565.056,
+        "offset": 0.0
+      },
+      {
+        "path": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080__abeba399.part_001.m4a",
+        "duration": 1495.608,
+        "offset": 2565.056
+      }
+    ]
+  },
+  {
+    "src_rel": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080.mp4",
+    "base_out_rel": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080",
+    "codec": "aac",
+    "container": "m4a",
+    "sample_rate": 16000,
+    "channels": 1,
+    "bitrate": "96k",
+    "chunked": true,
+    "size_bytes": 37843879,
+    "duration": 4060.6,
+    "parts": [
+      {
+        "path": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080.part_000.m4a",
+        "duration": 2565.056,
+        "offset": 0.0
+      },
+      {
+        "path": "elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080.part_001.m4a",
+        "duration": 1495.608,
+        "offset": 2565.056
+      }
+    ]
+  }
+]

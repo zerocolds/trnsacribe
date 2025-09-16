@@ -1,0 +1,24 @@
+{
+  "src_rel": "hzm.bitrix24.ru/2025-02-25 11-59-35.mkv",
+  "base_out_rel": "hzm.bitrix24.ru/2025-02-25_11-59-35",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 29090193,
+  "duration": 3236.6,
+  "parts": [
+    {
+      "path": "hzm.bitrix24.ru/2025-02-25_11-59-35.part_000.m4a",
+      "duration": 2660.032,
+      "offset": 0.0
+    },
+    {
+      "path": "hzm.bitrix24.ru/2025-02-25_11-59-35.part_001.m4a",
+      "duration": 576.632,
+      "offset": 2660.032
+    }
+  ]
+}

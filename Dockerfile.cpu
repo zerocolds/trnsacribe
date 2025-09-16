@@ -1,0 +1,16 @@
+# Dockerfile.cpu: CPU-only, no CUDA, for local dev or cloud CPU
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y git python3 python3-pip ffmpeg curl && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install --upgrade pip && pip3 install requests srt pyannote.audio torch
+
+# Ollama (optional, for local CPU LLM)
+RUN curl -fsSL https://ollama.com/install.sh | sh || true
+
+WORKDIR /workspace
+COPY . .
+
+CMD ["/bin/bash"]

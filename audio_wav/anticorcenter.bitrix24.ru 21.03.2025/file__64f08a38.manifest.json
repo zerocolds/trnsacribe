@@ -1,0 +1,13 @@
+{
+  "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/Маркетинг статистика и анализ.mp4",
+  "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/file__64f08a38",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 71105400,
+  "duration": 2222.037313,
+  "parts": []
+}

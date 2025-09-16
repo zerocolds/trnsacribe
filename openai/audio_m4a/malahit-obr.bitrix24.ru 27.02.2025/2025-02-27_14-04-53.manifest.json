@@ -1,0 +1,13 @@
+{
+  "src_rel": "malahit-obr.bitrix24.ru 27.02.2025/2025-02-27 14-04-53.mkv",
+  "base_out_rel": "malahit-obr.bitrix24.ru 27.02.2025/2025-02-27_14-04-53",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 16432655,
+  "duration": 1735.9,
+  "parts": []
+}

@@ -1,0 +1,13 @@
+{
+  "src_rel": "Чек-ап LEGCHE.mp4",
+  "base_out_rel": "-_LEGCHE__648c0480",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 133903780,
+  "duration": 4184.490688,
+  "parts": []
+}

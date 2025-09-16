@@ -1,0 +1,13 @@
+{
+  "src_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.mp4",
+  "base_out_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440__82f529b8",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 107484238,
+  "duration": 3358.88,
+  "parts": []
+}

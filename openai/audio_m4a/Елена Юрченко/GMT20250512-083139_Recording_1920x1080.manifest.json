@@ -1,0 +1,24 @@
+{
+  "src_rel": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.mp4",
+  "base_out_rel": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 38385443,
+  "duration": 4038.9,
+  "parts": [
+    {
+      "path": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.part_000.m4a",
+      "duration": 2515.008,
+      "offset": 0.0
+    },
+    {
+      "path": "Елена Юрченко/GMT20250512-083139_Recording_1920x1080.part_001.m4a",
+      "duration": 1523.956,
+      "offset": 2515.008
+    }
+  ]
+}

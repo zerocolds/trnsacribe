@@ -1,0 +1,24 @@
+{
+  "src_rel": "apcpixel.bitrix24.ru/2025-02-21 11-14-40.mkv",
+  "base_out_rel": "apcpixel.bitrix24.ru/2025-02-21_11-14-40",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 28124720,
+  "duration": 3244.401,
+  "parts": [
+    {
+      "path": "apcpixel.bitrix24.ru/2025-02-21_11-14-40.part_000.m4a",
+      "duration": 2757.056,
+      "offset": 0.0
+    },
+    {
+      "path": "apcpixel.bitrix24.ru/2025-02-21_11-14-40.part_001.m4a",
+      "duration": 487.408063,
+      "offset": 2757.056
+    }
+  ]
+}

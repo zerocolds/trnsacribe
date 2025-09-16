@@ -1,0 +1,33 @@
+{
+  "file": "Obrashcheniya_v_TP/2025-03-03_09-11-49__bdcaa070.spk.json",
+  "labels": [
+    "Менеджер",
+    "Клиент",
+    "Саппорт",
+    "Другое"
+  ],
+  "mode": "local",
+  "model": "qwen2.5:14b-instruct",
+  "llm_success": true,
+  "result": {
+    "mapping": {
+      "SPK??": "Другое"
+    },
+    "confidence": {
+      "SPK??": 0.95
+    },
+    "reasons": {
+      "SPK??": "Реплики не содержат ключевых фраз, относящихся к конкретной роли из списка."
+    }
+  },
+  "stats": {
+    "SPK??": {
+      "dur": 92.79999999999998,
+      "turns": 4,
+      "first": 0.0,
+      "last": 119.97999999999999,
+      "chars": 135,
+      "talk_share": 1.0
+    }
+  }
+}

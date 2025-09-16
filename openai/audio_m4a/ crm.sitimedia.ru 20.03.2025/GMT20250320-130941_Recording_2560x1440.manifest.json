@@ -1,0 +1,24 @@
+{
+  "src_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.mp4",
+  "base_out_rel": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 31104737,
+  "duration": 3358.92,
+  "parts": [
+    {
+      "path": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.part_000.m4a",
+      "duration": 2581.056,
+      "offset": 0.0
+    },
+    {
+      "path": " crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.part_001.m4a",
+      "duration": 777.908,
+      "offset": 2581.056
+    }
+  ]
+}

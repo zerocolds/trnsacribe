@@ -1,0 +1,13 @@
+{
+  "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.mp4",
+  "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080__765c36ba",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 97694798,
+  "duration": 3052.96,
+  "parts": []
+}

@@ -1,0 +1,13 @@
+{
+  "src_rel": "openline.zettains.ru/GMT20250409-080640_Recording_1920x1080 (1).mp4",
+  "base_out_rel": "openline.zettains.ru/GMT20250409-080640_Recording_1920x1080_1__5bd67f4c",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 66054222,
+  "duration": 2064.192,
+  "parts": []
+}

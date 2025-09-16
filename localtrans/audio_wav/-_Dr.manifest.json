@@ -1,0 +1,13 @@
+{
+  "src_rel": "Чек-ап Dr. Cosm.mp4",
+  "base_out_rel": "-_Dr",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 114991238,
+  "duration": 3593.47375,
+  "parts": []
+}

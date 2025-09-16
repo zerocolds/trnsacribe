@@ -1,0 +1,24 @@
+{
+  "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.mp4",
+  "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 28046785,
+  "duration": 3053.0,
+  "parts": [
+    {
+      "path": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.part_000.m4a",
+      "duration": 2602.048,
+      "offset": 0.0
+    },
+    {
+      "path": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.part_001.m4a",
+      "duration": 451.016,
+      "offset": 2602.048
+    }
+  ]
+}

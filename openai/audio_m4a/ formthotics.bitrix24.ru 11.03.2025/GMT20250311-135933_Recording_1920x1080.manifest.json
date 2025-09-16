@@ -1,0 +1,13 @@
+{
+  "src_rel": " formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080.mp4",
+  "base_out_rel": " formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 21988713,
+  "duration": 2324.8,
+  "parts": []
+}

@@ -1,0 +1,13 @@
+{
+  "src_rel": "Чек-ап с презами KariRom.mp4",
+  "base_out_rel": "-_KariRom__fb354828",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 112899150,
+  "duration": 3528.096,
+  "parts": []
+}

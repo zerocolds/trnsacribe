@@ -1,0 +1,13 @@
+{
+  "src_rel": "Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050.mp4",
+  "base_out_rel": "Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 21786020,
+  "duration": 2302.12,
+  "parts": []
+}

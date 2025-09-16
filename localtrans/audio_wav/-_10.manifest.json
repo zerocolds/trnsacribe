@@ -1,0 +1,13 @@
+{
+  "src_rel": "Чек-ап Барбарис 10.02.2025.mp4",
+  "base_out_rel": "-_10.02",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 181993550,
+  "duration": 5687.296,
+  "parts": []
+}

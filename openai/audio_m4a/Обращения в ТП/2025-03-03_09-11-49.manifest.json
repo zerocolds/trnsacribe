@@ -1,0 +1,13 @@
+{
+  "src_rel": "Обращения в ТП/2025-03-03 09-11-49.mkv",
+  "base_out_rel": "Обращения в ТП/2025-03-03_09-11-49",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 14221,
+  "duration": 106.201,
+  "parts": []
+}

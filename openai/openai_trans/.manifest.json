@@ -1,0 +1,364 @@
+{
+  "files": {
+    "9dcd9b134c9a7c2e3033cc5cc13306da4dd253fc": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250414-080555_Recording_1600x720.part_000",
+      "size": 23921751,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ crm.alea.company/GMT20250414-080555_Recording_1600x720.part_000.m4a"
+    },
+    "dad3b1696eef6857e66dd7fd6d955d79e0f4b227": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250414-080555_Recording_1600x720.part_001",
+      "size": 2121248,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ crm.alea.company/GMT20250414-080555_Recording_1600x720.part_001.m4a"
+    },
+    "f19dcd13dd54a357413473bc55a4b11dc79c20b5": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250320-130941_Recording_2560x1440.part_000",
+      "size": 23719011,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.part_000.m4a"
+    },
+    "c8f55595c9aac925545a431580e56b61bd677fff": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250320-130941_Recording_2560x1440.part_001",
+      "size": 7385726,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ crm.sitimedia.ru 20.03.2025/GMT20250320-130941_Recording_2560x1440.part_001.m4a"
+    },
+    "7fe0c1840746bef10eed8cae52e21e9ab2fa732d": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250311-135933_Recording_1920x1080",
+      "size": 21988713,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ formthotics.bitrix24.ru 11.03.2025/GMT20250311-135933_Recording_1920x1080.m4a"
+    },
+    "86f6ea04b132da425cd494428518672339b1c782": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250513-093217_Recording_1920x1080",
+      "size": 17012088,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080.m4a"
+    },
+    "ea0d99781a70ffda6461d0951930365f58083815": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250313-140728_Recording_1280x828.part_000",
+      "size": 23828320,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.part_000.m4a"
+    },
+    "225e2ba4a1c32bc07562b8d2c6d05b74941ef3e1": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250313-140728_Recording_1280x828.part_001",
+      "size": 4401405,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/ webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.part_001.m4a"
+    },
+    "9dec2c44dad847d9eca6d7067839c74fe48d9c48": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250312-055939_Recording_1920x1140.part_000",
+      "size": 23989644,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140.part_000.m4a"
+    },
+    "7f15c5889b17ea2a1ff212a81e8db7bd1bf19911": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250312-055939_Recording_1920x1140.part_001",
+      "size": 10613902,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/a-business.bitrix24.ru 12.03.2025/GMT20250312-055939_Recording_1920x1140.part_001.m4a"
+    },
+    "3f29a8c778fb470b5ca6f8fdb9d7fab7f62b280e": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250321-092102_Recording_1920x1080.part_000",
+      "size": 24054373,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_000.m4a"
+    },
+    "aba15ed7e83b3f6bbaa4ac4cc02c02d52530153a": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250321-092102_Recording_1920x1080.part_001",
+      "size": 22964178,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_001.m4a"
+    },
+    "4715b6419e3e43384a8de59b47d0cc5cf1cdf2d2": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250321-092102_Recording_1920x1080.part_002",
+      "size": 24359024,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_002.m4a"
+    },
+    "3e97f9a1928bdf36cc31b013edcbd786bad51a4e": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250321-092102_Recording_1920x1080.part_003",
+      "size": 24157142,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_003.m4a"
+    },
+    "ffc4295b91bef1399f3d1cbb23bd2687a1a8f59e": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250321-092102_Recording_1920x1080.part_004",
+      "size": 23208035,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.part_004.m4a"
+    },
+    "07f025b3be175744f5e44d06109c732fd4d94987": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/file__0f22a9fa",
+      "size": 7052234,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/file__0f22a9fa.m4a"
+    },
+    "ff364e8f1844fcf17634ca0bc3fbba07e2f24faf": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/file__64f08a38",
+      "size": 20625134,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/file__64f08a38.m4a"
+    },
+    "88677721c2235517861303ff7f0a6decebb366d4": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/file__97dc5d51",
+      "size": 20555469,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/anticorcenter.bitrix24.ru 21.03.2025/file__97dc5d51.m4a"
+    },
+    "d1fd56fc7e71132dde4badf001e9a2f371f43447": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-02-21_11-14-40.part_000",
+      "size": 24050674,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/apcpixel.bitrix24.ru/2025-02-21_11-14-40.part_000.m4a"
+    },
+    "0efefcaf0e46e83a80530a2e749cef4b174c5eb2": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-02-21_11-14-40.part_001",
+      "size": 4074046,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/apcpixel.bitrix24.ru/2025-02-21_11-14-40.part_001.m4a"
+    },
+    "df59a9acd8e9e483c2f42a00773c1fceef570260": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-02-21_12-40-38",
+      "size": 2327847,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/apcpixel.bitrix24.ru/2025-02-21_12-40-38.m4a"
+    },
+    "8315346a9269271e46edd3088fc5cbbb3b4e472e": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-03-06_16-00-44",
+      "size": 21526467,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/aydiss.bitrix24.ru 06.03.2025/2025-03-06_16-00-44.m4a"
+    },
+    "89794ef8c2b43588eb895bf9afa70a411521ae75": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250408-080634_Recording_1920x1040",
+      "size": 24608296,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/b24-27gx74.bitrix24.ru/GMT20250408-080634_Recording_1920x1040.m4a"
+    },
+    "a88f94d2a7f1e431a7ed78de27622fb9564ab245": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250411-090140_Recording_1440x900.part_000",
+      "size": 23729798,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.part_000.m4a"
+    },
+    "8e92802e751b8b253ca8580b1726e3eb26368be3": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250411-090140_Recording_1440x900.part_001",
+      "size": 9375982,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.part_001.m4a"
+    },
+    "ba4282814f5b74063756099395dc77dd55d819ee": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250411-140422_Recording_1920x1080.part_000",
+      "size": 23858737,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.part_000.m4a"
+    },
+    "2831f3e837b846574faf05bcedab7e614c4417f5": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250411-140422_Recording_1920x1080.part_001",
+      "size": 9851156,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.part_001.m4a"
+    },
+    "3b4c2ef06847c1a0946d406c5238793c2d96d44e": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250213-110201_Recording_1280x720.part_000",
+      "size": 23982030,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720.part_000.m4a"
+    },
+    "4cdbee67ee1ab6ad204a33efcde2929c50d1acbe": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250213-110201_Recording_1280x720.part_001",
+      "size": 4094451,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/crm.center-logistics.ru/GMT20250213-110201_Recording_1280x720.part_001.m4a"
+    },
+    "9040baad8151563d798fba99996fe634fefb73e7": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250214-130010_Recording_1920x1080.part_000",
+      "size": 23855165,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080.part_000.m4a"
+    },
+    "9df203effcf3a18a8cc6e293faa1689e14bffdfd": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250214-130010_Recording_1920x1080.part_001",
+      "size": 2202574,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/delaem24.bitrix24.ru/GMT20250214-130010_Recording_1920x1080.part_001.m4a"
+    },
+    "7d2417433e61f42bd2268f5226d8af3cf19bec86": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250411-080027_Recording_1920x1030_1",
+      "size": 19569882,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/dinoimport.bitrix24.ru/GMT20250411-080027_Recording_1920x1030_1.m4a"
+    },
+    "e68ab254fc3062302acbe5ee9f6e6d13ce41026d": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250310-110048_Recording_1920x1080.part_000",
+      "size": 23881930,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080.part_000.m4a"
+    },
+    "37e19ce7916d954273356e71bf6007807a7a4f72": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250310-110048_Recording_1920x1080.part_001",
+      "size": 13961949,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/elbrus-oem.bitrix24.ru 10.03.2025/GMT20250310-110048_Recording_1920x1080.part_001.m4a"
+    },
+    "6d0a039df95bd92cf4e5412dd7e0c5c55265697f": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250417-080345_Recording_1920x1080",
+      "size": 24551828,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/fachmann.bitrix24.ru/GMT20250417-080345_Recording_1920x1080.m4a"
+    },
+    "967fb61d43467c600d3a56e6dce56dd950342bd3": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250319-123027_Recording_1440x900",
+      "size": 6266693,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/greenfeel-invest.bitrix24.ru 19.03.2025/GMT20250319-123027_Recording_1440x900.m4a"
+    },
+    "ed5deca8ac806a0fa740245a0930d18d317a8e73": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250304-130805_Recording_640x360_1",
+      "size": 17503775,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360_1.m4a"
+    },
+    "991eeb78c96736a37f4bd14cd8622d40b2325659": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-02-25_11-59-35.part_000",
+      "size": 23945582,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/hzm.bitrix24.ru/2025-02-25_11-59-35.part_000.m4a"
+    },
+    "d11a0e2f3e97580601c361fae7e9b84dc2c64f3e": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-02-25_11-59-35.part_001",
+      "size": 5144611,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/hzm.bitrix24.ru/2025-02-25_11-59-35.part_001.m4a"
+    },
+    "55791c37198b47d1c6c5ae0fee332dc35c22578f": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250320-075917_Recording_1920x1080.part_000",
+      "size": 23676241,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080.part_000.m4a"
+    },
+    "a3b1b658ede21b1e60c5de47eec73bd0ce704f9b": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250320-075917_Recording_1920x1080.part_001",
+      "size": 7995556,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/lazzero.bitrix24.ru 20.03.2025/GMT20250320-075917_Recording_1920x1080.part_001.m4a"
+    },
+    "e84eb943d27d584bb673c7370276031159df6570": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250403-080601_Recording_1920x1080.part_000",
+      "size": 23862020,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.part_000.m4a"
+    },
+    "80683c4ab52f0fd541f93cb6ccf64ccd0c799089": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250403-080601_Recording_1920x1080.part_001",
+      "size": 5549256,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.part_001.m4a"
+    },
+    "21a838ac0b41612240fa3077ae3d6524b900c076": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-02-27_14-04-53",
+      "size": 16432655,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/malahit-obr.bitrix24.ru 27.02.2025/2025-02-27_14-04-53.m4a"
+    },
+    "9258ad1af915fbf2dc8d423e50dde69f8846c2a0": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250417-090536_Recording_1920x1080",
+      "size": 24316854,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/mc-etalon.bitrix24.ru/GMT20250417-090536_Recording_1920x1080.m4a"
+    },
+    "962eb20859fad79534d558b28bfcd87847828edb": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250305-114335_Recording_1920x1140.part_000",
+      "size": 23749985,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.part_000.m4a"
+    },
+    "27318d63813e967bf67ba0fa13e158a65f850d75": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250305-114335_Recording_1920x1140.part_001",
+      "size": 12106448,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.part_001.m4a"
+    },
+    "21538249626fdde5df71eea54ba70efda2cfef82": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250409-080640_Recording_1920x1080_1",
+      "size": 20146130,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/openline.zettains.ru/GMT20250409-080640_Recording_1920x1080_1.m4a"
+    },
+    "b662e3445bb354702b1ce1c042aabfea7ee4e4cc": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/0218",
+      "size": 18030176,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/promtreid/0218.m4a"
+    },
+    "13bfb31d94ddcbc92e7181fec1f9230cb12ab8e5": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/0226.part_000",
+      "size": 23943587,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/rodasoleil.bitrix24.ru/0226.part_000.m4a"
+    },
+    "e97b9e957f43df8cf06a61d98ba2f3672fcca7e0": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/0226.part_001",
+      "size": 9922772,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/rodasoleil.bitrix24.ru/0226.part_001.m4a"
+    },
+    "b63b0bb0cb61f982c6313b79ad25e825fb5351aa": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250306-080326_Recording_1920x1080",
+      "size": 11001971,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/smart-marking.bitrix24.ru/GMT20250306-080326_Recording_1920x1080.m4a"
+    },
+    "0353ab3b2ca88f89d0a8c9e9dc6e97534bcf75f4": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250404-102843_Recording_1920x1040",
+      "size": 16266967,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/smi-kazan.bitrix24.ru/GMT20250404-102843_Recording_1920x1040.m4a"
+    },
+    "b148b843f4475cb416bc608e0b52566ca6413d2f": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250317-120612_Recording_1920x1080.part_000",
+      "size": 23876098,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.part_000.m4a"
+    },
+    "c3c43b8d6175fc1357257d52a89b7bb54ae3d193": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250317-120612_Recording_1920x1080.part_001",
+      "size": 2452325,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.part_001.m4a"
+    },
+    "0ef6161761d76324c1733531eb53d2eb9ab3b7e9": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/0314.part_000",
+      "size": 23805568,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.part_000.m4a"
+    },
+    "57ba88838405c63e2b300cf608325ff1e6eba602": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/0314.part_001",
+      "size": 4686086,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.part_001.m4a"
+    },
+    "9018c321cf01f034ec0e3d0c73060daa637ea799": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250224-111919_Recording_1680x1050",
+      "size": 21786020,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Айгуль - патрнер/GMT20250224-111919_Recording_1680x1050.m4a"
+    },
+    "931866e795f3cf792109f6191270cb57d1125ef7": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250304-140204_Recording_1920x1020.part_000",
+      "size": 23813905,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.part_000.m4a"
+    },
+    "fc68e6646f5878644d0440905e7d7cbfa2cd2e96": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250304-140204_Recording_1920x1020.part_001",
+      "size": 23136441,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.part_001.m4a"
+    },
+    "7f663c7c4d4f6f2fd0e1dadbfa773503d9d4a096": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250512-083139_Recording_1920x1080.part_000",
+      "size": 23914059,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Елена Юрченко/GMT20250512-083139_Recording_1920x1080.part_000.m4a"
+    },
+    "efc02433d2caa501ad3d2b1171603457aa4cf468": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250512-083139_Recording_1920x1080.part_001",
+      "size": 14471384,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Елена Юрченко/GMT20250512-083139_Recording_1920x1080.part_001.m4a"
+    },
+    "0a7af649d5c8547c99235e4f6d6325d90fc32a7d": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250218-124104_Recording_1920x1080",
+      "size": 18350208,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Интервью Дмитрий/GMT20250218-124104_Recording_1920x1080.m4a"
+    },
+    "bdc8cda3377c9abbaff741a6a5e06e42ab2ec172": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/0228",
+      "size": 3820539,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Обращения в ТП/0228.m4a"
+    },
+    "f09adc311c5749d613589ed3899a9f58651b4cea": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/2025-03-03_09-11-49",
+      "size": 14221,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Обращения в ТП/2025-03-03_09-11-49.m4a"
+    },
+    "4a44156ea647bca7a16993e3889bfd8467abf8cd": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/file__079d46fe",
+      "size": 2683805,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Обращения в ТП/file__079d46fe.m4a"
+    },
+    "3af4611cf84e29834637ecb128b475cc3e69fa7f": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250416-120746_Recording_1920x1080",
+      "size": 21761747,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Сопровождение/elbrus-oem.bitrix24.ru/GMT20250416-120746_Recording_1920x1080.m4a"
+    },
+    "aba8d5afc58d7adfd51d7010288f3e7ee853302c": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250421-080955_Recording_1920x1080",
+      "size": 11411086,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080.m4a"
+    },
+    "03605b16f5e66be93fcf265e69fe01338f1d4c78": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250421-120207_Recording_1920x1080",
+      "size": 20188663,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-120207_Recording_1920x1080.m4a"
+    },
+    "d3763fbea014736efdd84d66d67bef20e9bc8807": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250424-142621_Recording_1920x1080.part_000",
+      "size": 23832030,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.part_000.m4a"
+    },
+    "45b66727f1a0d306f2ce67969f4c2e10ec07573c": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250424-142621_Recording_1920x1080.part_001",
+      "size": 4214755,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Сопровождение/elbrus-oem.bitrix24.ru/GMT20250424-142621_Recording_1920x1080.part_001.m4a"
+    },
+    "902db9a7a826b7f44d69d30e4051e40a11516208": {
+      "out_base": "/Users/zerocold/Downloads/git/agregate_intervue/openai/openai_trans/GMT20250305-085011_Recording_1920x1200",
+      "size": 21294739,
+      "src": "/Users/zerocold/Downloads/git/agregate_intervue/openai/audio_m4a/Сопровождение/gubarev.bitrix24.ru/GMT20250305-085011_Recording_1920x1200.m4a"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "src_rel": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080.mp4",
+  "base_out_rel": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080__c57d0039",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 33709893,
+  "duration": 3681.84,
+  "parts": [
+    {
+      "path": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080__c57d0039.part_000.m4a",
+      "duration": 2611.008,
+      "offset": 0.0
+    },
+    {
+      "path": "bochkyru.bitrix24.ru/GMT20250411-140422_Recording_1920x1080__c57d0039.part_001.m4a",
+      "duration": 1070.856,
+      "offset": 2611.008
+    }
+  ]
+}

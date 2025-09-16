@@ -1,0 +1,24 @@
+{
+  "src_rel": "rodasoleil.bitrix24.ru/0226.mp4",
+  "base_out_rel": "rodasoleil.bitrix24.ru/0226",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 33866359,
+  "duration": 4290.209,
+  "parts": [
+    {
+      "path": "rodasoleil.bitrix24.ru/0226.part_000.m4a",
+      "duration": 3028.037938,
+      "offset": 0.0
+    },
+    {
+      "path": "rodasoleil.bitrix24.ru/0226.part_001.m4a",
+      "duration": 1262.2345,
+      "offset": 3028.037938
+    }
+  ]
+}

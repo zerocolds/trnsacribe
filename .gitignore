@@ -1,0 +1,16 @@
+source
+*.zip
+*.tar.gz
+*.bin
+*.m4p
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.log
+*.csv
+

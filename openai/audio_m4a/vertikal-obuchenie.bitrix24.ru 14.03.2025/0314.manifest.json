@@ -1,0 +1,24 @@
+{
+  "src_rel": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.mp4",
+  "base_out_rel": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 28491654,
+  "duration": 3082.406,
+  "parts": [
+    {
+      "path": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.part_000.m4a",
+      "duration": 2586.053063,
+      "offset": 0.0
+    },
+    {
+      "path": "vertikal-obuchenie.bitrix24.ru 14.03.2025/0314.part_001.m4a",
+      "duration": 496.416938,
+      "offset": 2586.053063
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "src_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.mp4",
+  "base_out_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 97977422,
+  "duration": 3061.792,
+  "parts": []
+}

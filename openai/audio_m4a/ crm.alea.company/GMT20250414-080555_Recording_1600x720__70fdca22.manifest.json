@@ -1,0 +1,24 @@
+{
+  "src_rel": " crm.alea.company/GMT20250414-080555_Recording_1600x720.mp4",
+  "base_out_rel": " crm.alea.company/GMT20250414-080555_Recording_1600x720__70fdca22",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 26042999,
+  "duration": 2770.44,
+  "parts": [
+    {
+      "path": " crm.alea.company/GMT20250414-080555_Recording_1600x720__70fdca22.part_000.m4a",
+      "duration": 2543.04,
+      "offset": 0.0
+    },
+    {
+      "path": " crm.alea.company/GMT20250414-080555_Recording_1600x720__70fdca22.part_001.m4a",
+      "duration": 227.424,
+      "offset": 2543.04
+    }
+  ]
+}

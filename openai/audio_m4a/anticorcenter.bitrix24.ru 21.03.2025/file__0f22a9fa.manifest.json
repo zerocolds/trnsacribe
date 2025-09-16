@@ -1,0 +1,13 @@
+{
+  "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/незабудка.mp4",
+  "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/file__0f22a9fa",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 7052234,
+  "duration": 778.5,
+  "parts": []
+}

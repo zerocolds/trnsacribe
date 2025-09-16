@@ -1,0 +1,24 @@
+{
+  "src_rel": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080.mp4",
+  "base_out_rel": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080__3336093c",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 26328423,
+  "duration": 2850.1,
+  "parts": [
+    {
+      "path": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080__3336093c.part_000.m4a",
+      "duration": 2588.032,
+      "offset": 0.0
+    },
+    {
+      "path": "studiavent.bitrix24.ru 17.03.2025/GMT20250317-120612_Recording_1920x1080__3336093c.part_001.m4a",
+      "duration": 262.132,
+      "offset": 2588.032
+    }
+  ]
+}

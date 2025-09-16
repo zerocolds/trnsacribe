@@ -1,0 +1,13 @@
+{
+  "src_rel": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020.mp4",
+  "base_out_rel": "Василина 04.03.2025/GMT20250304-140204_Recording_1920x1020__9ac7ed52",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 161677390,
+  "duration": 5052.416,
+  "parts": []
+}

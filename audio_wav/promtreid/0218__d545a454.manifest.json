@@ -1,0 +1,13 @@
+{
+  "src_rel": "promtreid/0218.mp4",
+  "base_out_rel": "promtreid/0218__d545a454",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 61139520,
+  "duration": 1910.607563,
+  "parts": []
+}

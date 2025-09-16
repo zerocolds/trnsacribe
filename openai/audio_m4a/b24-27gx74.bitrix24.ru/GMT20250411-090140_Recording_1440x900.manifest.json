@@ -1,0 +1,24 @@
+{
+  "src_rel": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.mp4",
+  "base_out_rel": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 33105780,
+  "duration": 3655.92,
+  "parts": [
+    {
+      "path": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.part_000.m4a",
+      "duration": 2640.0,
+      "offset": 0.0
+    },
+    {
+      "path": "b24-27gx74.bitrix24.ru/GMT20250411-090140_Recording_1440x900.part_001.m4a",
+      "duration": 1015.964,
+      "offset": 2640.0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080.mp4",
+  "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/GMT20250321-092102_Recording_1920x1080__c1bba898",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 422251598,
+  "duration": 13195.36,
+  "parts": []
+}

@@ -1,0 +1,13 @@
+{
+  "src_rel": "promtreid/0218.mp4",
+  "base_out_rel": "promtreid/0218__d545a454",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 18030176,
+  "duration": 1910.704,
+  "parts": []
+}

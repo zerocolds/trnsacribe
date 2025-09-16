@@ -1,0 +1,13 @@
+{
+  "src_rel": "Обращения в ТП/2025-03-03 09-11-49.mkv",
+  "base_out_rel": "Обращения в ТП/2025-03-03_09-11-49__bdcaa070",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 3396344,
+  "duration": 106.133313,
+  "parts": []
+}

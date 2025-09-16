@@ -1,0 +1,13 @@
+{
+  "src_rel": "Обращения в ТП/0228.mp4",
+  "base_out_rel": "Обращения в ТП/0228",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 3820539,
+  "duration": 436.401,
+  "parts": []
+}

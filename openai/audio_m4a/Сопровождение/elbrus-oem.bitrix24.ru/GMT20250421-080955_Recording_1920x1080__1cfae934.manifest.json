@@ -1,0 +1,13 @@
+{
+  "src_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080.mp4",
+  "base_out_rel": "Сопровождение/elbrus-oem.bitrix24.ru/GMT20250421-080955_Recording_1920x1080__1cfae934",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 11411086,
+  "duration": 1243.8,
+  "parts": []
+}

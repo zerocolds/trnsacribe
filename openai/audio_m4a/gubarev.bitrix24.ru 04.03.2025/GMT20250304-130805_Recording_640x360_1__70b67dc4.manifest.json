@@ -1,0 +1,13 @@
+{
+  "src_rel": "gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360 (1).mp4",
+  "base_out_rel": "gubarev.bitrix24.ru 04.03.2025/GMT20250304-130805_Recording_640x360_1__70b67dc4",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 17503775,
+  "duration": 1897.92,
+  "parts": []
+}

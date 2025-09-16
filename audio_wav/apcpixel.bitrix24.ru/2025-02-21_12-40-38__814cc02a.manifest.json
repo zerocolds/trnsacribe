@@ -1,0 +1,13 @@
+{
+  "src_rel": "apcpixel.bitrix24.ru/2025-02-21 12-40-38.mkv",
+  "base_out_rel": "apcpixel.bitrix24.ru/2025-02-21_12-40-38__814cc02a",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 8310862,
+  "duration": 259.712,
+  "parts": []
+}

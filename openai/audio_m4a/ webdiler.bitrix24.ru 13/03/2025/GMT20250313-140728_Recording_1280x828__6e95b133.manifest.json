@@ -1,0 +1,24 @@
+{
+  "src_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828.mp4",
+  "base_out_rel": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 28229725,
+  "duration": 3061.84,
+  "parts": [
+    {
+      "path": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133.part_000.m4a",
+      "duration": 2593.024,
+      "offset": 0.0
+    },
+    {
+      "path": " webdiler.bitrix24.ru 13/03/2025/GMT20250313-140728_Recording_1280x828__6e95b133.part_001.m4a",
+      "duration": 468.84,
+      "offset": 2593.024
+    }
+  ]
+}

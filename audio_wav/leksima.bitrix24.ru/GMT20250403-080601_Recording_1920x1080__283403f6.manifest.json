@@ -1,0 +1,13 @@
+{
+  "src_rel": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080.mp4",
+  "base_out_rel": "leksima.bitrix24.ru/GMT20250403-080601_Recording_1920x1080__283403f6",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 100933710,
+  "duration": 3154.176,
+  "parts": []
+}

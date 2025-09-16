@@ -1,0 +1,24 @@
+{
+  "src_rel": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140.mp4",
+  "base_out_rel": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140__8b25546e",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": true,
+  "size_bytes": 35856433,
+  "duration": 3850.0,
+  "parts": [
+    {
+      "path": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140__8b25546e.part_000.m4a",
+      "duration": 2567.04,
+      "offset": 0.0
+    },
+    {
+      "path": "melsytech.bitrix24.ru/GMT20250305-114335_Recording_1920x1140__8b25546e.part_001.m4a",
+      "duration": 1283.024,
+      "offset": 2567.04
+    }
+  ]
+}

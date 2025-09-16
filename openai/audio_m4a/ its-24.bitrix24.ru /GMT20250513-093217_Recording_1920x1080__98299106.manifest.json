@@ -1,0 +1,13 @@
+{
+  "src_rel": " its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080.mp4",
+  "base_out_rel": " its-24.bitrix24.ru /GMT20250513-093217_Recording_1920x1080__98299106",
+  "codec": "aac",
+  "container": "m4a",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "96k",
+  "chunked": false,
+  "size_bytes": 17012088,
+  "duration": 1820.92,
+  "parts": []
+}

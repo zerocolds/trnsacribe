@@ -1,0 +1,13 @@
+{
+  "src_rel": "anticorcenter.bitrix24.ru 21.03.2025/динамика продаж.mp4",
+  "base_out_rel": "anticorcenter.bitrix24.ru 21.03.2025/file__97dc5d51",
+  "codec": "pcm_s16le",
+  "container": "wav",
+  "sample_rate": 16000,
+  "channels": 1,
+  "bitrate": "",
+  "chunked": false,
+  "size_bytes": 69759182,
+  "duration": 2179.968,
+  "parts": []
+}
