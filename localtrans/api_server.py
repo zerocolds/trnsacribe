@@ -9,7 +9,6 @@ from fastapi import (
     UploadFile,
     File,
     Form,
-    Request,
     HTTPException,
     status,
     Depends,
@@ -17,13 +16,16 @@ from fastapi import (
 from fastapi.responses import JSONResponse
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pathlib import Path
+import json
 import requests
 import shutil
 import tempfile
 import os
 import subprocess
 import sys
-import traceback
+
+
+app = FastAPI(title="aggregate_intervue")
 
 
 WHISPER_MODEL_URL = (
@@ -48,7 +50,12 @@ def download_whisper_model():
 
 # --- Download LLM model from HF ---
 def download_hf_model(model_name: str, target_dir: Path = Path("/model/llm")):
-    from huggingface_hub import snapshot_download
+    try:
+        from huggingface_hub import snapshot_download
+    except ImportError as exc:
+        raise RuntimeError(
+            "huggingface_hub is not installed. Add it to your environment to enable model downloads."
+        ) from exc
 
     target_dir.mkdir(parents=True, exist_ok=True)
     print(f"Downloading HF model {model_name} to {target_dir} ...")
@@ -61,19 +68,6 @@ def download_hf_model(model_name: str, target_dir: Path = Path("/model/llm")):
 @app.on_event("startup")
 def startup_event():
     download_whisper_model()
-
-
-# --- /pipeline: full process ---
-@app.post("/download_llm_model")
-async def download_llm_model(
-    model_name: str = Form(...), auth: bool = Depends(check_auth)
-):
-    """Download LLM model from HuggingFace by name (repo_id)."""
-    try:
-        download_hf_model(model_name)
-        return {"status": "ok", "model": model_name}
-    except Exception as e:
-        return JSONResponse(status_code=500, content={"error": str(e)})
 
 
 # --- Simple Bearer token auth ---
@@ -98,6 +92,26 @@ def run_subprocess(cmd, cwd=None):
         return proc.returncode, proc.stdout
     except Exception as e:
         return 1, str(e)
+
+
+def load_json_payload(path: Path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as e:
+        raise RuntimeError(f"Failed to parse JSON from {path.name}: {e}")
+
+
+# --- /download_llm_model ---
+@app.post("/download_llm_model")
+async def download_llm_model(
+    model_name: str = Form(...), auth: bool = Depends(check_auth)
+):
+    """Download LLM model from HuggingFace by name (repo_id)."""
+    try:
+        download_hf_model(model_name)
+        return {"status": "ok", "model": model_name}
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
 
 
 # --- /transcribe ---
@@ -128,11 +142,14 @@ async def transcribe(
             str(out_dir),
             "--whisper-bin",
             whisper_bin
-            or os.environ.get("WHISPER_BIN", "../whisper.cpp/build/bin/whisper-cli"),
+            or os.environ.get("WHISPER_BIN", "whisper.cpp/build/bin/whisper-cli"),
             "--model",
             whisper_model
-            or os.environ.get(
-                "WHISPER_MODEL", "../whisper.cpp/models/ggml-large-v3.bin"
+            or os.environ.get("WHISPER_MODEL")
+            or (
+                str(WHISPER_MODEL_PATH)
+                if WHISPER_MODEL_PATH.exists()
+                else "../whisper.cpp/models/ggml-large-v3.bin"
             ),
             "--lang",
             lang,
@@ -150,7 +167,11 @@ async def transcribe(
             return JSONResponse(
                 status_code=500, content={"error": "No segments.json produced"}
             )
-        return {"segments_json": segs[0].read_text(encoding="utf-8")}
+        try:
+            segments = load_json_payload(segs[0])
+        except RuntimeError as e:
+            return JSONResponse(status_code=500, content={"error": str(e)})
+        return {"segments": segments}
 
 
 # --- /diarize ---
@@ -233,11 +254,27 @@ async def summarize(
 
 
 # --- /assign_roles ---
+def _normalize_role_mode(mode: str) -> str:
+    """Translate human-friendly backend choices into CLI mode values."""
+    if not mode:
+        return "local"
+    value = mode.strip().lower()
+    if value in {"local", "ollama", "ollama-local"}:
+        return "local"
+    if value in {"openai", "gpt", "api"}:
+        return "openai"
+    raise HTTPException(
+        status_code=status.HTTP_400_BAD_REQUEST,
+        detail=f"Unsupported role assignment backend: {mode}",
+    )
+
+
 @app.post("/assign_roles")
 async def assign_roles(
     spk_json: UploadFile = File(...),
     labels: str = Form("Менеджер,Клиент,Саппорт,Другое"),
-    mode: str = Form("local"),
+    mode: str = Form(os.environ.get("ROLES_MODE", "local")),
+    model: str = Form(os.environ.get("ROLES_MODEL", "gpt-oss:20b")),
     auth: bool = Depends(check_auth),
 ):
     """Assign roles to speakers using assign_roles_with_ollama.py."""
@@ -247,7 +284,6 @@ async def assign_roles(
             shutil.copyfileobj(spk_json.file, f)
         out_dir = Path(tmpdir) / "roles"
         out_dir.mkdir()
-        # Call assign_roles_with_ollama.py
         cmd = [
             sys.executable,
             "localtrans/assign_roles_with_ollama.py",
@@ -258,8 +294,23 @@ async def assign_roles(
             "--labels",
             labels,
             "--mode",
-            mode,
+            _normalize_role_mode(mode),
+            "--model",
+            model,
         ]
+        rc, out = run_subprocess(cmd)
+        if rc != 0:
+            return JSONResponse(status_code=500, content={"error": out})
+        roles = list(out_dir.glob("*.roles.json"))
+        if not roles:
+            return JSONResponse(
+                status_code=500, content={"error": "No roles.json produced"}
+            )
+        try:
+            roles_payload = load_json_payload(roles[0])
+        except RuntimeError as e:
+            return JSONResponse(status_code=500, content={"error": str(e)})
+        return {"roles": roles_payload}
 
 
 # --- /pipeline: full process ---
@@ -267,7 +318,8 @@ async def assign_roles(
 async def pipeline(
     file: UploadFile = File(...),
     hf_token: str = Form(...),
-    backend: str = Form("ollama"),
+    backend: str = Form(os.environ.get("ROLES_MODE", "local")),
+    model: str = Form(os.environ.get("ROLES_MODEL", "gpt-oss:20b")),
     labels: str = Form("Менеджер,Клиент,Саппорт,Другое"),
     lang: str = Form("ru"),
     device: str = Form("auto"),
@@ -279,10 +331,24 @@ async def pipeline(
         orig_path = Path(tmpdir) / file.filename
         with open(orig_path, "wb") as f:
             shutil.copyfileobj(file.file, f)
-        # 2. Convert to wav (if not wav)
-        if not orig_path.suffix.lower() == ".wav":
+        # 2. Convert to wav 16k mono (always when source is not wav or forced)
+        force_reencode = (
+            os.environ.get("FORCE_WAV_CONVERT", "0").lower() in {"1", "true", "yes"}
+        )
+        if force_reencode or orig_path.suffix.lower() != ".wav":
             wav_path = Path(tmpdir) / (orig_path.stem + ".wav")
-            cmd = ["ffmpeg", "-y", "-i", str(orig_path), str(wav_path)]
+            cmd = [
+                "ffmpeg",
+                "-y",
+                "-i",
+                str(orig_path),
+                "-vn",
+                "-ac",
+                "1",
+                "-ar",
+                "16000",
+                str(wav_path),
+            ]
             rc, out = run_subprocess(cmd)
             if rc != 0:
                 return JSONResponse(
@@ -301,9 +367,14 @@ async def pipeline(
             "--out-root",
             str(trans_out),
             "--whisper-bin",
-            os.environ.get("WHISPER_BIN", "../whisper.cpp/build/bin/whisper-cli"),
+            os.environ.get("WHISPER_BIN", "whisper.cpp/build/bin/whisper-cli"),
             "--model",
-            os.environ.get("WHISPER_MODEL", "../whisper.cpp/models/ggml-large-v3.bin"),
+            os.environ.get("WHISPER_MODEL")
+            or (
+                str(WHISPER_MODEL_PATH)
+                if WHISPER_MODEL_PATH.exists()
+                else "../whisper.cpp/models/ggml-large-v3.bin"
+            ),
             "--lang",
             lang,
             "--threads",
@@ -319,6 +390,12 @@ async def pipeline(
         segs = list(trans_out.glob("*.segments.json"))
         if not segs:
             return JSONResponse(status_code=500, content={"error": "No segments.json"})
+        try:
+            segments_payload = load_json_payload(segs[0])
+        except RuntimeError as e:
+            return JSONResponse(
+                status_code=500, content={"error": f"segments json: {e}"}
+            )
         # 4. Diarize
         diar_out = Path(tmpdir) / "rttm"
         diar_out.mkdir()
@@ -363,6 +440,12 @@ async def pipeline(
             return JSONResponse(
                 status_code=500, content={"error": "No .spk.json after merge"}
             )
+        try:
+            spk_payload = load_json_payload(spk_jsons[0])
+        except RuntimeError as e:
+            return JSONResponse(
+                status_code=500, content={"error": f"spk json: {e}"}
+            )
         # 6. Assign roles
         roles_out = Path(tmpdir) / "roles"
         roles_out.mkdir()
@@ -376,7 +459,9 @@ async def pipeline(
             "--labels",
             labels,
             "--mode",
-            backend,
+            _normalize_role_mode(backend),
+            "--model",
+            model,
         ]
         rc, out = run_subprocess(cmd)
         if rc != 0:
@@ -384,24 +469,23 @@ async def pipeline(
                 status_code=500, content={"error": "assign_roles: " + out}
             )
         roles_jsons = list(roles_out.glob("*.roles.json"))
-        # 7. Return all results
-        return {
-            "segments_json": segs[0].read_text(encoding="utf-8") if segs else None,
-            "rttm": rttms[0].read_text(encoding="utf-8") if rttms else None,
-            "spk_json": spk_jsons[0].read_text(encoding="utf-8") if spk_jsons else None,
-            "roles_json": (
-                roles_jsons[0].read_text(encoding="utf-8") if roles_jsons else None
-            ),
-        }
-        rc, out = run_subprocess(cmd)
-        if rc != 0:
-            return JSONResponse(status_code=500, content={"error": out})
-        roles = list(out_dir.glob("*.roles.json"))
-        if not roles:
+        if not roles_jsons:
             return JSONResponse(
                 status_code=500, content={"error": "No roles.json produced"}
             )
-        return {"roles_json": roles[0].read_text(encoding="utf-8")}
+        try:
+            roles_payload = load_json_payload(roles_jsons[0])
+        except RuntimeError as e:
+            return JSONResponse(
+                status_code=500, content={"error": f"roles json: {e}"}
+            )
+        # 7. Return all results
+        return {
+            "segments": segments_payload,
+            "rttm": rttms[0].read_text(encoding="utf-8") if rttms else None,
+            "spk": spk_payload,
+            "roles": roles_payload,
+        }
 
 
 # --- Health check ---
@@ -409,5 +493,12 @@ async def pipeline(
 def root():
     return {
         "status": "ok",
-        "endpoints": ["/transcribe", "/diarize", "/summarize", "/assign_roles"],
+        "endpoints": [
+            "/download_llm_model",
+            "/transcribe",
+            "/diarize",
+            "/summarize",
+            "/assign_roles",
+            "/pipeline",
+        ],
     }
