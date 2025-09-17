@@ -10,7 +10,7 @@ RUN git clone --depth 1 https://github.com/ggerganov/whisper.cpp.git /tmp/whispe
     && cmake --build build -j
 
 # --- Stage 2: final image ---
-FROM ghcr.io/vllm-project/vllm-openai:v0.5.2
+FROM vllm/vllm-openai:v0.10.2
 ENV DEBIAN_FRONTEND=noninteractive
 # Minimal system deps (ffmpeg for audio conversion)
 RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
