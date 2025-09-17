@@ -1,4 +1,4 @@
-# Dockerfile.gpu: CUDA + vLLM + Ollama + Python deps
+# Dockerfile.gpu: CUDA + vLLM + Python deps
 
 # --- Stage 1: whisper.cpp builder ---
 FROM nvidia/cuda:12.2.0-base-ubuntu22.04 as whisper-builder
@@ -11,7 +11,6 @@ RUN git clone --depth 1 https://github.com/ggerganov/whisper.cpp.git /tmp/whispe
 
 # --- Stage 2: final image ---
 FROM nvidia/cuda:12.2.0-base-ubuntu22.04
-ARG INSTALL_OLLAMA=0
 ENV DEBIAN_FRONTEND=noninteractive
 # System deps
 RUN apt-get update && apt-get install -y python3 python3-pip ffmpeg curl && rm -rf /var/lib/apt/lists/*
@@ -25,12 +24,6 @@ RUN pip3 install --upgrade pip && pip3 install \
     fastapi \
     uvicorn \
     huggingface_hub
-# Ollama (optional, enabled via INSTALL_OLLAMA=1 build-arg)
-RUN if [ "${INSTALL_OLLAMA}" = "1" ]; then \
-      curl -fsSL https://ollama.com/install.sh | sh; \
-    else \
-      echo "[INFO] Skipping Ollama install"; \
-    fi
 # Copy only whisper-cli binary
 RUN mkdir -p /workspace/whisper.cpp/build/bin
 COPY --from=whisper-builder /tmp/whisper.cpp/build/bin/whisper-cli /workspace/whisper.cpp/build/bin/whisper-cli
