@@ -78,6 +78,7 @@ uvicorn localtrans.api_server:app --reload --host 0.0.0.0 --port 8080
 ```bash
 docker build -t aggregate-intervue:gpu -f Dockerfile.gpu .
 ```
+Образ основан на `ghcr.io/vllm-project/vllm-openai:v0.5.2`, поэтому vLLM и PyTorch уже предустановлены — остаётся только поднять FastAPI и при необходимости запустить сервис vLLM.
 
 # В репозитории публикуется один тег в GHCR:
 - `:latest` — GPU-образ (vLLM + pipeline).
