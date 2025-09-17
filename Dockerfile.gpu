@@ -13,6 +13,8 @@ RUN git clone --depth 1 https://github.com/ggerganov/whisper.cpp.git /tmp/whispe
 FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
+# make sure /workspace is on PYTHONPATH so uvicorn can import localtrans
+ENV PYTHONPATH=/workspace
 # System deps (Python + ffmpeg for audio conversion)
 RUN apt-get update && apt-get install -y \
     python3 \
