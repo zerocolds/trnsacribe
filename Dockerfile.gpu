@@ -38,7 +38,8 @@ RUN mkdir -p /workspace/whisper.cpp/build/bin
 COPY --from=whisper-builder /tmp/whisper.cpp/build/bin/whisper-cli /workspace/whisper.cpp/build/bin/whisper-cli
 # Copy project
 WORKDIR /workspace
-COPY ./localtrans ./localtrans
+COPY localtrans ./localtrans
+COPY localtrans/__init__.py ./localtrans/__init__.py
 # Expose API port
 EXPOSE 8080
 # Entrypoint: run FastAPI server by default
