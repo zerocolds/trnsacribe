@@ -20,8 +20,8 @@
 * **Python 3.10+** и зависимости (см. ниже)
 * **whisper.cpp** (локальная транскрибация): бинарь `whisper-cli` и модель `ggml-large-v3.bin`
 * **HuggingFace токен** для `pyannote.audio` (переменная окружения `HF_TOKEN`)
-* **Ollama** (для локальных LLM саммари), рекомендовано `qwen2.5:14b-instruct`
-  *(либо можно указать модель OpenAI в `summarize_spk_json.py` — опционально)*
+* **vLLM / OpenAI совместимый API** для назначения ролей и генеративных шагов (например, внешний vLLM на RunPod или OpenAI)
+* **Ollama** (опционально, если хотите работать полностью локально без vLLM)
 
 ### Установка Python-зависимостей
 
@@ -42,6 +42,7 @@ pip install pyannote.audio torch srt tqdm rich
 ```bash
 export HF_TOKEN=hf_xxx               # для pyannote.audio
 export OPENAI_API_KEY=sk-xxx         # если используете OpenAI-пайплайн
+export OPENAI_BASE_URL=http://localhost:8000/v1  # URL vLLM/OpenAI API
 export OLLAMA_HOST=http://127.0.0.1:11434  # если Ollama работает не по умолчанию
 ```
 

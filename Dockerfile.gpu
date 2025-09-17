@@ -1,4 +1,4 @@
-# Dockerfile.gpu: CUDA + vLLM + Python deps
+# Dockerfile.gpu: FastAPI pipeline + Whisper CLI (expects external vLLM)
 
 # --- Stage 1: whisper.cpp builder ---
 FROM nvidia/cuda:12.2.0-base-ubuntu22.04 as whisper-builder
@@ -10,25 +10,33 @@ RUN git clone --depth 1 https://github.com/ggerganov/whisper.cpp.git /tmp/whispe
     && cmake --build build -j
 
 # --- Stage 2: final image ---
-FROM vllm/vllm-openai:v0.10.2
+FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04
 ENV DEBIAN_FRONTEND=noninteractive
-# Minimal system deps (ffmpeg for audio conversion)
-RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
-# Python deps for our FastAPI service
-RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir \
-    requests \
-    srt \
-    pyannote.audio \
-    fastapi \
-    uvicorn \
-    huggingface_hub
+ENV PYTHONUNBUFFERED=1
+# System deps (Python + ffmpeg for audio conversion)
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    ffmpeg \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+# Python deps (install CUDA-enabled torch first)
+RUN pip3 install --upgrade pip \
+    && pip3 install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cu121 \
+    && pip3 install --no-cache-dir \
+        requests \
+        srt \
+        pyannote.audio \
+        fastapi \
+        uvicorn \
+        huggingface_hub
 # Copy only whisper-cli binary
 RUN mkdir -p /workspace/whisper.cpp/build/bin
 COPY --from=whisper-builder /tmp/whisper.cpp/build/bin/whisper-cli /workspace/whisper.cpp/build/bin/whisper-cli
 # Copy project
 WORKDIR /workspace
 COPY ./localtrans ./localtrans
-# Expose vLLM HTTP port (default 8000)
-EXPOSE 8000
+# Expose API port
+EXPOSE 8080
 # Entrypoint: run FastAPI server by default
 CMD ["uvicorn", "localtrans.api_server:app", "--host", "0.0.0.0", "--port", "8080"]

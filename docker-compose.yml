@@ -9,6 +9,10 @@ services:
       - USE_GPU=1
       - HF_TOKEN=${HF_TOKEN}
       - API_TOKEN=${API_TOKEN}
+      - ROLES_MODE=openai
+      - ROLES_MODEL=${ROLES_MODEL:-meta-llama/Meta-Llama-3-8B-Instruct}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-http://vllm:8000/v1}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-dummy}
     volumes:
       - .:/workspace
       - ./models:/mnt/models

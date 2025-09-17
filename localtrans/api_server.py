@@ -257,11 +257,11 @@ async def summarize(
 def _normalize_role_mode(mode: str) -> str:
     """Translate human-friendly backend choices into CLI mode values."""
     if not mode:
-        return "local"
+        return "openai"
     value = mode.strip().lower()
     if value in {"local", "ollama", "ollama-local"}:
         return "local"
-    if value in {"openai", "gpt", "api"}:
+    if value in {"openai", "gpt", "api", "vllm"}:
         return "openai"
     raise HTTPException(
         status_code=status.HTTP_400_BAD_REQUEST,
@@ -273,8 +273,10 @@ def _normalize_role_mode(mode: str) -> str:
 async def assign_roles(
     spk_json: UploadFile = File(...),
     labels: str = Form("Менеджер,Клиент,Саппорт,Другое"),
-    mode: str = Form(os.environ.get("ROLES_MODE", "local")),
-    model: str = Form(os.environ.get("ROLES_MODEL", "gpt-oss:20b")),
+    mode: str = Form(os.environ.get("ROLES_MODE", "openai")),
+    model: str = Form(
+        os.environ.get("ROLES_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct")
+    ),
     auth: bool = Depends(check_auth),
 ):
     """Assign roles to speakers using assign_roles_with_ollama.py."""
@@ -318,8 +320,10 @@ async def assign_roles(
 async def pipeline(
     file: UploadFile = File(...),
     hf_token: str = Form(...),
-    backend: str = Form(os.environ.get("ROLES_MODE", "local")),
-    model: str = Form(os.environ.get("ROLES_MODEL", "gpt-oss:20b")),
+    backend: str = Form(os.environ.get("ROLES_MODE", "openai")),
+    model: str = Form(
+        os.environ.get("ROLES_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct")
+    ),
     labels: str = Form("Менеджер,Клиент,Саппорт,Другое"),
     lang: str = Form("ru"),
     device: str = Form("auto"),
