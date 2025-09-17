@@ -30,7 +30,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 # если нет файла, минимально:
-pip install pyannote.audio torch srt tqdm rich
+pip install pyannote.audio torch srt tqdm rich python-multipart
 ```
 
 > На Apple Silicon включайте `--use-mps` при диаризации для ускорения.

@@ -5,7 +5,7 @@
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-# или вручную: pip install requests srt pyannote.audio torch
+# или вручную: pip install requests srt pyannote.audio torch python-multipart
 # Запуск любого скрипта:
 python3 localtrans/transcribe_local_whispercpp.py --help
 ```

@@ -29,7 +29,8 @@ RUN pip3 install --upgrade pip \
         pyannote.audio \
         fastapi \
         uvicorn \
-        huggingface_hub
+        huggingface_hub \
+        python-multipart
 # Copy only whisper-cli binary
 RUN mkdir -p /workspace/whisper.cpp/build/bin
 COPY --from=whisper-builder /tmp/whisper.cpp/build/bin/whisper-cli /workspace/whisper.cpp/build/bin/whisper-cli
